@@ -13,7 +13,7 @@ This project implements a multi-agent system for managing Jira tasks, summarizin
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/jira-agents.git
+   git clone [https://github.com/your-username/jira-agents.git](https://github.com/mohana9985/Multi-Agent-Model-Jira_Agent-.git)
    cd jira-agents
    ```
 
