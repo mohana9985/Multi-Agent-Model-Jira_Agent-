@@ -1,0 +1,7 @@
+{
+    "graphs":{
+        "jira": "./supervisor.py:supervisor"
+    },
+
+    "dependencies": ["."]
+}
