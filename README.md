@@ -42,7 +42,12 @@ This project implements a multi-agent system for managing Jira tasks, summarizin
 
 To run the supervisor agent, execute the following command:
 ```bash
-python supervisor.py
+langgraph dev
+```
+or 
+
+```bash
+langgraph dev --allow-blocking
 ```
 
 The supervisor will then delegate tasks to the appropriate agents based on the provided query. For example, to get all defects in the "Learning Management syste Project", the supervisor will call the Jira agent, then the summary agent, and finally the email agent to send a notification.
