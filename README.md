@@ -20,15 +20,22 @@ This project implements a multi-agent system for managing Jira tasks, summarizin
 2. **Create and activate a virtual environment:**
    ```bash
    python -m venv .venv
+   ```
+   for MacOS user
+   ```bash
    source .venv/bin/activate
    ```
+   for Windows OS user
+   ```bash
+   .venv/Scripts/activate
+   ```
 
-3. **Install the dependencies:**
+4. **Install the dependencies:**
    ```bash
    pip install -r requirement.txt
    ```
 
-4. **Set up your environment variables:**
+5. **Set up your environment variables:**
    Create a `.env` file in the root directory of the project and add the following variables:
    ```
    JIRA_API_TOKEN=<your-jira-api-token>
