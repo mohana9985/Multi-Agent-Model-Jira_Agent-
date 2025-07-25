@@ -30,7 +30,7 @@ Before you begin, ensure you have the following installed:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/jira-agents.git
+   git clone https://github.com/mohana9985/Multi-Agent-Model-Jira_Agent-.git
    cd jira-agents
    ```
 
